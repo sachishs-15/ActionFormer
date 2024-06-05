@@ -1,5 +1,6 @@
-import numpy as np
+from data.datafile import THUMOS
+from data.utils import get_data_loader
 
-file = np.load("data/thumos/i3d_features/video_test_0000007.npy")
+dataset = THUMOS(split = "train")
+dataloader = get_data_loader(dataset, batch_size=1,  num_workers=1)
 
-print(file.shape)

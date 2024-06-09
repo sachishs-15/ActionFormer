@@ -5,10 +5,13 @@ from training import train_one_epoch
 from lib.modeling import make_meta_arch
 from lib.utils import make_optimizer, make_scheduler
 
-from config.config import load_config, load_default_config, _update_config, _merge 
+import wandb
+
+from config.config import load_config, _update_config
 
 if __name__ == "__main__":
 
+    wandb.init(project="ActionFormer")
 
     cfgfile = "config/thumos_i3d.yaml"
     cfg = load_config(cfgfile)
@@ -16,7 +19,7 @@ if __name__ == "__main__":
 
     dataset_cfg = cfg['dataset']
          
-    dataset = THUMOS(split='train', feat_stride=dataset_cfg['feat_stride'], num_frames=dataset_cfg['num_frames'])
+    dataset = THUMOS(split='train', feat_stride=dataset_cfg['feat_stride'], num_frames=dataset_cfg['num_frames'], max_seq_len=dataset_cfg['max_seq_len'])
 
     dataloader = get_data_loader(dataset, batch_size=1,  num_workers=1)
 
@@ -30,5 +33,6 @@ if __name__ == "__main__":
     model.train()
     
     for epoch_no in range(cfg['opt']['epochs']):
+        
         train_one_epoch(dataloader, model, optimizer, scheduler, epoch_no)
     

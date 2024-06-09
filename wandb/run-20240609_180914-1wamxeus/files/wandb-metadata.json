@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.4.0-182-generic-aarch64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-06-09T18:09:15.530809",
+    "startedAt": "2024-06-09T18:09:14.412871",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/sachishs-15/ActionFormer.git",
+        "commit": "886a267095fb1919e57de2e01838a54236a818d8"
+    },
+    "email": "sachishs.15@gmail.com",
+    "root": "/home/sachishs/Documents/ActionFormer/ActionFormer",
+    "host": "ubuntum2",
+    "username": "sachishs",
+    "executable": "/usr/bin/python3",
+    "cpu_count": null,
+    "cpu_count_logical": 4,
+    "disk": {
+        "/": {
+            "total": 38.33717346191406,
+            "used": 27.807147979736328
+        }
+    },
+    "memory": {
+        "total": 3.827472686767578
+    }
+}

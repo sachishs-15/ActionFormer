@@ -1,0 +1,26 @@
+Reading data  .....
+Training epoch 0
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    train_one_epoch(dataloader, model, optimizer, scheduler, epoch_no)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/training.py", line 23, in train_one_epoch
+    loss['final_loss'].backward()
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/_tensor.py", line 525, in backward
+    torch.autograd.backward(
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    train_one_epoch(dataloader, model, optimizer, scheduler, epoch_no)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/training.py", line 23, in train_one_epoch
+    loss['final_loss'].backward()
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/_tensor.py", line 525, in backward
+    torch.autograd.backward(
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

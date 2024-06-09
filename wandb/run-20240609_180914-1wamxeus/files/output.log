@@ -1,0 +1,161 @@
+Reading data  .....
+Training epoch 0
+{'cls_loss': tensor(0.4194, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.4150, grad_fn=<DivBackward0>), 'final_loss': tensor(0.8344, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0638, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0607, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1245, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0415, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0410, grad_fn=<DivBackward0>), 'final_loss': tensor(0.0826, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.2412, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2665, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5076, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5320, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.4869, grad_fn=<DivBackward0>), 'final_loss': tensor(1.0189, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3794, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.4059, grad_fn=<DivBackward0>), 'final_loss': tensor(0.7853, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.6035, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.4804, grad_fn=<DivBackward0>), 'final_loss': tensor(3.0839, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5953, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.4900, grad_fn=<DivBackward0>), 'final_loss': tensor(1.0853, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.4353, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3843, grad_fn=<DivBackward0>), 'final_loss': tensor(0.8195, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5765, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.5928, grad_fn=<DivBackward0>), 'final_loss': tensor(1.1693, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0657, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0629, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1286, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(3.8676, grad_fn=<DivBackward0>), 'reg_loss': tensor(3.9556, grad_fn=<DivBackward0>), 'final_loss': tensor(7.8232, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.7270, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.7320, grad_fn=<DivBackward0>), 'final_loss': tensor(1.4591, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.8934, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.5990, grad_fn=<DivBackward0>), 'final_loss': tensor(3.4925, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3491, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3316, grad_fn=<DivBackward0>), 'final_loss': tensor(0.6808, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(3.4659, grad_fn=<DivBackward0>), 'reg_loss': tensor(3.2334, grad_fn=<DivBackward0>), 'final_loss': tensor(6.6993, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0423, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0370, grad_fn=<DivBackward0>), 'final_loss': tensor(0.0793, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5121, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.4633, grad_fn=<DivBackward0>), 'final_loss': tensor(0.9754, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3531, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3292, grad_fn=<DivBackward0>), 'final_loss': tensor(0.6823, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0586, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0598, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1185, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.1794, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.1606, grad_fn=<DivBackward0>), 'final_loss': tensor(0.3400, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0540, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0559, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1099, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.1811, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.1427, grad_fn=<DivBackward0>), 'final_loss': tensor(0.3238, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.9908, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.6946, grad_fn=<DivBackward0>), 'final_loss': tensor(3.6855, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.0154, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.8617, grad_fn=<DivBackward0>), 'final_loss': tensor(1.8771, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.0761, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.8913, grad_fn=<DivBackward0>), 'final_loss': tensor(1.9674, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.7854, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.6281, grad_fn=<DivBackward0>), 'final_loss': tensor(1.4135, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5664, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.4913, grad_fn=<DivBackward0>), 'final_loss': tensor(1.0577, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.7542, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.5508, grad_fn=<DivBackward0>), 'final_loss': tensor(1.3050, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.4144, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.1750, grad_fn=<DivBackward0>), 'final_loss': tensor(2.5893, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.4237, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.3612, grad_fn=<DivBackward0>), 'final_loss': tensor(2.7849, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.8905, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.7280, grad_fn=<DivBackward0>), 'final_loss': tensor(1.6185, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.9599, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3790, grad_fn=<DivBackward0>), 'final_loss': tensor(1.3388, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5429, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3885, grad_fn=<DivBackward0>), 'final_loss': tensor(0.9314, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3102, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2599, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5700, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5332, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3915, grad_fn=<DivBackward0>), 'final_loss': tensor(0.9247, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3411, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2564, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5975, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.3409, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.0540, grad_fn=<DivBackward0>), 'final_loss': tensor(2.3949, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0847, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0842, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1689, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.8874, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.5683, grad_fn=<DivBackward0>), 'final_loss': tensor(1.4557, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(2.1877, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.7240, grad_fn=<DivBackward0>), 'final_loss': tensor(3.9117, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.2113, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.0145, grad_fn=<DivBackward0>), 'final_loss': tensor(2.2257, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3417, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2379, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5796, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(3.0797, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.9281, grad_fn=<DivBackward0>), 'final_loss': tensor(5.0077, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.2415, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.7743, grad_fn=<DivBackward0>), 'final_loss': tensor(2.0158, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0754, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0526, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1280, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5844, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.4995, grad_fn=<DivBackward0>), 'final_loss': tensor(1.0839, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.9856, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.3493, grad_fn=<DivBackward0>), 'final_loss': tensor(3.3349, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3559, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2529, grad_fn=<DivBackward0>), 'final_loss': tensor(0.6088, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.4847, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3703, grad_fn=<DivBackward0>), 'final_loss': tensor(0.8550, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3346, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2338, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5684, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3832, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2614, grad_fn=<DivBackward0>), 'final_loss': tensor(0.6446, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.3688, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.8000, grad_fn=<DivBackward0>), 'final_loss': tensor(2.1688, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.4338, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2366, grad_fn=<DivBackward0>), 'final_loss': tensor(0.6704, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(2.5291, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.5257, grad_fn=<DivBackward0>), 'final_loss': tensor(4.0548, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.9782, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.6029, grad_fn=<DivBackward0>), 'final_loss': tensor(1.5811, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3200, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2054, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5254, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.1304, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0877, grad_fn=<DivBackward0>), 'final_loss': tensor(0.2181, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(3.3506, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.9541, grad_fn=<DivBackward0>), 'final_loss': tensor(5.3047, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.1193, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0695, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1888, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3580, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2254, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5834, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(4.9576, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.5335, grad_fn=<DivBackward0>), 'final_loss': tensor(6.4910, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.1694, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.1119, grad_fn=<DivBackward0>), 'final_loss': tensor(0.2812, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.6385, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.0636, grad_fn=<DivBackward0>), 'final_loss': tensor(2.7021, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.9378, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.5260, grad_fn=<DivBackward0>), 'final_loss': tensor(1.4639, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.0972, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.0532, grad_fn=<DivBackward0>), 'final_loss': tensor(0.1504, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(3.4781, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.0670, grad_fn=<DivBackward0>), 'final_loss': tensor(4.5450, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.2584, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.8836, grad_fn=<DivBackward0>), 'final_loss': tensor(2.1420, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.5502, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.3308, grad_fn=<DivBackward0>), 'final_loss': tensor(0.8811, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(1.6027, grad_fn=<DivBackward0>), 'reg_loss': tensor(1.2513, grad_fn=<DivBackward0>), 'final_loss': tensor(2.8540, grad_fn=<AddBackward0>)}
+{'cls_loss': tensor(0.3002, grad_fn=<DivBackward0>), 'reg_loss': tensor(0.2051, grad_fn=<DivBackward0>), 'final_loss': tensor(0.5052, grad_fn=<AddBackward0>)}
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    train_one_epoch(dataloader, model, optimizer, scheduler, epoch_no)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/training.py", line 20, in train_one_epoch
+    loss = model(data)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/meta_archs.py", line 338, in forward
+    feats, masks = self.backbone(batched_inputs, batched_masks)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/backbones.py", line 160, in forward
+    x, mask = self.branch[idx](x, mask)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/blocks.py", line 724, in forward
+    out, out_mask = self.attn(self.ln1(x), mask)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/blocks.py", line 580, in forward
+    q, qx_mask = self.query_conv(x, mask)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/blocks.py", line 46, in forward
+    out_conv = self.conv(x)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 310, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 306, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    train_one_epoch(dataloader, model, optimizer, scheduler, epoch_no)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/training.py", line 20, in train_one_epoch
+    loss = model(data)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/meta_archs.py", line 338, in forward
+    feats, masks = self.backbone(batched_inputs, batched_masks)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/backbones.py", line 160, in forward
+    x, mask = self.branch[idx](x, mask)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/blocks.py", line 724, in forward
+    out, out_mask = self.attn(self.ln1(x), mask)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/blocks.py", line 580, in forward
+    q, qx_mask = self.query_conv(x, mask)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/lib/modeling/blocks.py", line 46, in forward
+    out_conv = self.conv(x)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 310, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/sachishs/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 306, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+KeyboardInterrupt

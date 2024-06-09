@@ -1,0 +1,14 @@
+Reading data  .....
+Training epoch 0
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    train_one_epoch(dataloader, model, optimizer, scheduler, epoch_no)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/training.py", line 28, in train_one_epoch
+    wandb.log(loss)
+NameError: name 'wandb' is not defined
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    train_one_epoch(dataloader, model, optimizer, scheduler, epoch_no)
+  File "/home/sachishs/Documents/ActionFormer/ActionFormer/training.py", line 28, in train_one_epoch
+    wandb.log(loss)
+NameError: name 'wandb' is not defined

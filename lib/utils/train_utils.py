@@ -257,6 +257,8 @@ def train_one_epoch(
     tb_writer = None,
     print_freq = 20
 ):
+    
+    
     """Training the model for one epoch"""
     # set up meters
     batch_time = AverageMeter()
@@ -303,6 +305,7 @@ def train_one_epoch(
                 # update
                 losses_tracker[key].update(value.item())
 
+            tb_writer = None
             # log to tensor board
             lr = scheduler.get_last_lr()[0]
             global_step = curr_epoch * num_iters + iter_idx
